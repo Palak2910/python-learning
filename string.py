@@ -24,3 +24,18 @@ x = "Python is easy to learn"
 print("my" in x)
 print("easy" in x)
 
+#slicing 
+a="hello world"
+print(a[2:5])
+
+#slice from the start 
+a="hello world"
+print(a[:5])
+
+#slice to the end 
+a="hello world"
+print(a[2:])
+
+#negative indexing 
+a="hello world"
+print(a[-5:-2])
