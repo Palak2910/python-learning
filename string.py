@@ -39,3 +39,37 @@ print(a[2:])
 #negative indexing 
 a="hello world"
 print(a[-5:-2])
+
+#modify strings
+a="hello world"
+print(a.upper())
+
+a="HELLO WORLD"
+print(a.lower())
+
+#remove whitespace
+a="  hello world"
+print(a.strip())
+
+#replace string 
+a="hello world"
+print(a.replace("h","i"))
+
+#split string
+a="hello world"
+print(a.split(","))
+
+#string concatenation
+a="hello"
+b="world"
+c=a+" "+b
+print(c)
+
+#string format
+age = 19
+txt= f"i am {age}"
+print(txt)
+
+price=100
+txt=f"the price is {price:.2f}"
+print(txt)
